@@ -1,0 +1,19 @@
+HW:
+1 point
+-	Set up and run  Jenkins. 
+-	from your browser save Jenkins/Manage Jenkins/System Information page as html and attach to you gitbud repo
+1 point
+-	Set up a project which uses a git repo (https://github.com/vitalliuss/helloci.git  ) for sources
+-	from your browser save Jenkins/Credential page as html and attach to you gitbud repo
+-	Attach you Job’s configuration to you gitbud repo (Jenkins home\jobs\your project\config.xml e.g. C:\Apps\Jenkins\jobs\OriginalHelloCi\config.xml)
+1 point
+-	Set up a manually triggered maven build for the Maven based Java project in Java folder of the sources from the above git repo
+-	Build you job and attach the build’s console output to your gitbud repo
+1 point
+-	Use own git repo (forking the above repo is fine) to check out code. 
+-	Use polling to trigger a build when the git repo is changed 
+-	Change something in your own repo. Observe a build triggered by you change
+-	Attach the console build log of you project for a build which was triggered by a change in your repo
+1 point
+-	Set up email notification
+-	Attach a build failure notification email (or a screenshot about the email notification setup)
